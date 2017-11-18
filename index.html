@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Drawing App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/start/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  </head>
+  <body>
+  
+		<!--title-->
+ 		<div id="header">Drawing App</div>
+
+		<!--title-->
+ 		<div class="inputContainer">
+     	<!-- 		color-->
+      <div class="input" id="colorInput">
+ 			  <input id="paintColor" type="color" list>
+      </div>
+ 		
+ 		
+			<!-- circle size-->
+   		<div id="thicknessInput">
+   			<div id="circle"></div>
+			</div>
+			<!--slider-->
+   		<div class="input">
+   			<div id="slider"></div>
+   		</div>
+ 		</div>
+ 		
+			<!--canvas container-->
+			<div id="container">
+				<canvas id="paint" height="460px" width="600px"></canvas>
+			</div>
+			
+			<!--buttons-->
+			<div class="inputContainer2">
+				<!--erase-->
+				<div class="input2">
+					<span id="erase" class="buttons">Erase</span>
+				</div>
+				
+				<!--save-->
+				<div class="input2">
+					<span id="save" class="buttons">Save</span>
+				</div>
+				
+				<!--reset-->
+				<div class="input2">
+					<span id="reset" class="buttons">Reset</span>
+				</div>
+			</div>
+			
+			
+			
+		<!--jQuery-->
+ 		<script src="jquery-3.2.1.min.js"></script>
+		<!--jQuery ui-->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<!--bootstrap-->
+  	<script src="bootstrap.min.js"></script>
+		<!--local js file-->
+  	<script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
